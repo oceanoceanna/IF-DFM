@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 2. **Prepare the vanilla model:**
    
-The trained vanilla model (demo) is in ./seed_train/MLP
+The trained vanilla model (demo) is in `./seed_train/MLP`
 You can also train your own vanilla model, incorporating samples with different training durations and varying numbers of false negative samples, which can be constructed via the main.py.
 
 4. **Download the data:**
@@ -31,7 +31,7 @@ Download the [Criteo dataset](https://drive.google.com/file/d/1x4KktfZtls9QjNdFY
 
 5. **Prepare the data and checkpoints:**
    
-Place data.txt in the /data directory.
+Place data.txt in the `./data` directory.
 Ensure that the data path and log path are correct！
 
 ## Get start
