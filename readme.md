@@ -11,7 +11,6 @@
 
 ![](f01.png)
 
-
 ## Preparation
 1. **Prepare the environment:**
    
@@ -47,6 +46,6 @@ Ensure that the data path and log path are correct！
 - $x_{adjust}$: Regularization term.
 - $x_{init_value}$: Initial value of the parameter change.
 - $x_{batch}$: Batch size.
-- $test\_gap$: $d_test$ in paper.
-- $valid\_test\_size$: The size of the validation/test sets.
-- $base\_model$: Choose from [MLP, DeepFM, AutoInt, DCNv2].
+- `test_gap`: $d_test$ in paper.
+- `valid_test_size`: The size of the validation/test sets.
+- `base_model`: Choose from [MLP, DeepFM, AutoInt, DCNv2].
